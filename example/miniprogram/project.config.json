@@ -3,19 +3,10 @@
   "packOptions": {
     "ignore": []
   },
-  "miniprogramRoot": "miniprogram/",
-  "compileType": "miniprogram",
-  "libVersion": "2.8.2",
-  "projectname": "wxapp-router-example",
-  "scripts": {
-    "beforeCompile": "npm run tsc",
-    "beforePreview": "npm run tsc",
-    "beforeUpload": "npm run tsc"
-  },
   "setting": {
     "urlCheck": false,
     "es6": true,
-    "enhance": false,
+    "enhance": true,
     "postcss": true,
     "preloadBackgroundData": false,
     "minified": true,
@@ -40,23 +31,47 @@
       "outputPath": ""
     },
     "enableEngineNative": false,
-    "useIsolateContext": true,
+    "useIsolateContext": false,
     "userConfirmedBundleSwitch": false,
-    "packNpmManually": true,
-    "packNpmRelationList": [
-      {
-        "packageJsonPath": "./package.json",
-        "miniprogramNpmDistDir": "./miniprogram/"
-      }
-    ],
+    "packNpmManually": false,
+    "packNpmRelationList": [],
     "minifyWXSS": true,
     "disableUseStrict": false,
     "minifyWXML": true,
     "showES6CompileOption": false,
     "useCompilerPlugins": false
   },
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
-  "appid": "wx85fc0d03fb0b224d",
-  "condition": {}
+  "compileType": "miniprogram",
+  "libVersion": "2.21.2",
+  "appid": "wx12b3eae139d09a28",
+  "projectname": "miniprogram-2",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "staticServerOptions": {
+    "baseURL": "",
+    "servePath": ""
+  },
+  "isGameTourist": false,
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": []
+    }
+  }
 }
